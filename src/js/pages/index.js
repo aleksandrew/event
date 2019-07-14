@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import main from './main';
 
 $(() => {
   if (process.env.NODE_ENV === 'development') {

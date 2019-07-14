@@ -23,7 +23,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
-    "@babel/register": "^7.4.0",
+    "@babel/register": "^7.4.4",
     "babel-loader": "^8.0.5",
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",
@@ -59,6 +59,7 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
+    "JQuery-custom-valhooks": "gist:859f8c06fa90b6de8e5d3cce08031028",
     "bootstrap": "^4.3.1",
     "jquery": "^3.3.1"
   }

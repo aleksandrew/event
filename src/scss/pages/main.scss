@@ -1,0 +1,120 @@
+@import "../vars";
+
+.box {
+	width: 33%;
+	height: auto;
+	margin: 15px 20px;
+	border: 1px solid $grey;
+	border-radius: 3px;
+
+	&__date {
+		background-color: $grey;
+		text-align: center;
+	}
+
+	&__info {
+		margin: 20px 0 10px;
+	}
+}
+
+.date {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: $black;
+	text-align: center;
+	padding: 10px 0;
+}
+
+input[type="checkbox"] {
+	display: none; 
+}
+
+.event {
+	width: 100%;
+	font-size: 1.3rem;
+	line-height: 2;
+	margin: 10px 0; 
+
+	display: flex;
+
+	&__name {
+		width: 50%;
+		padding-left: 10px;
+	}
+	
+	&__start-time {
+		width: 15%;
+		text-align: center;
+	}
+	
+	&__finish-time {
+		width: 15%;
+		text-align: center;
+	}
+	
+	&__unchecked {
+		width: 10%;
+		background: url(../img/icon/unchecked.svg) no-repeat center;
+		background-size: 18px;
+	}
+	
+	&__delete { 
+		width: 10%;
+		background: url(../img/icon/delete.svg) no-repeat center;
+		background-size: 12px;
+	
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+// event--checked
+
+.event {
+
+	&__name--checked {
+		width: 25%;
+		padding-left: 10px;
+	}
+	
+	&__date--checked {
+		width: 25%;
+		text-align: center;
+	}
+	
+	&__start-time--checked {
+		width: 15%;
+		text-align: center;
+	}
+	
+	&__finish-time--checked {
+		width: 15%;
+		text-align: center;
+	}
+	
+	&__checked { 
+		width: 10%;
+		background: url(../img/icon/checked.svg) no-repeat center;
+		background-size: 18px;
+		
+	}
+	
+	&__delete { 
+		width: 10%;
+		background-color: yellow;
+		background: url(../img/icon/delete.svg) no-repeat center;
+		background-size: 12px;
+		background-size: 12px;
+	
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+button {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
