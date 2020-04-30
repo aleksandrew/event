@@ -61,6 +61,6 @@
   "dependencies": {
     "JQuery-custom-valhooks": "gist:859f8c06fa90b6de8e5d3cce08031028",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1"
+    "jquery": "^3.5.0"
   }
 }
